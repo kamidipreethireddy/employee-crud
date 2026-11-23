@@ -17,6 +17,7 @@ public class Employee {
     private String department;
     private String email;
     private Double salary;
+    private String phoneNumber;
 
     public Employee() {
     }
@@ -59,4 +60,12 @@ public class Employee {
     public void setSalary(Double salary) {
         this.salary = salary;
     }
+    public String getPhoneNumber() {
+    	return phoneNumber;
+    }
+    
+    public void setPhoneNumber(String phoneNumber) {
+    	this.phoneNumber = phoneNumber;
+    }
+    
 }
